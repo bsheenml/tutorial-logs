@@ -21,10 +21,10 @@ export default function Sidebar() {
             <i className="fas fa-bars"></i>
           </button>
           {/* Brand */}
-          <Link href="/">
+          <Link href="/admin/dashboard">
             <a
               href="#pablo"
-              className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
+              className="md:block text-left md:pb-2 text-blueGray-600 mr-0 mt-2 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
             >
               Brendan Sheen
             </a>
@@ -162,7 +162,7 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link href="/admin/tables2">
+                <Link href="/admin/dashboard">
                   <a
                     href="#pablo"
                     className={
@@ -175,7 +175,7 @@ export default function Sidebar() {
                     <i
                       className={
                         "fas fa-map-marked mr-2 text-sm " +
-                        (router.pathname.indexOf("/admin/tables2") !== -1
+                        (router.pathname.indexOf("/admin/dashboard") !== -1
                           ? "opacity-75"
                           : "text-blueGray-300")
                       }

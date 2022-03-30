@@ -1,5 +1,6 @@
 import React from "react";
-import Axios from 'axios'
+import Axios from 'axios';
+import IndexNavBar from "components/Navbars/IndexNavbar"
 
 // components
 
@@ -16,7 +17,11 @@ export default function TablesDash({posts},{color}) {
   return (
     <>
     
+    <div className="absolute left-0">
+    
+    </div>
       <div className="flex flex-wrap mt-4">
+        
         <div className="w-full mb-12 px-4">
           <CardTableDark posts={posts} color="dark"/>
         </div>
