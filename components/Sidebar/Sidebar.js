@@ -213,8 +213,7 @@ export default function Sidebar() {
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
                   >
-                    <i className="fas faaaa
-                    -fingerprint text-blueGray-400 mr-2 text-sm"></i>{" "}
+                    <i className="fas fa-fingerprint text-blueGray-400 mr-2 text-sm"></i>{" "}
                     HubSpot in NextJS
                   </a>
                 </Link>
